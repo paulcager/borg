@@ -1,0 +1,30 @@
+# Cache directories
+sh:**/.cache
+sh:**/.config/borg
+sh:**/.dbus
+sh:**/.local/share/Trash
+sh:**/snap/*/common/.cache
+sh:**/.thumbnails
+
+# Browser storage and caches
+sh:**/.mozilla/firefox/*/storage
+sh:**/.config/google-chrome
+
+# Development tools
+sh:**/.local/share/JetBrains
+sh:**/.cache/JetBrains
+
+# AI/ML caches
+sh:**/.cache/whisper
+sh:**/.local/share/pipx/venvs/openai-whisper/lib/python3.12/site-packages
+
+# Embedded development
+sh:**/.arduino15
+sh:**/.platformio
+sh:**/.espressif
+
+# Work and project-specific
+sh:**/work-chrome
+sh:**/go/pkg
+sh:**/go.old
+sh:**/git/prometheus

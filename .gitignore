@@ -1,0 +1,5 @@
+# Borg repository passphrase - never commit this!
+password
+
+# IDE
+.idea/
