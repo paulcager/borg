@@ -16,6 +16,7 @@ sh:**/.config/google-chrome
 # Development tools
 sh:**/.local/share/JetBrains
 sh:**/.cache/JetBrains
+sh:**/esp-idf
 
 # AI/ML caches
 sh:**/.cache/whisper

@@ -137,6 +137,16 @@ export BORG_REPO="your-user@ch-s010.rsync.net:laptop"
 borg list
 ```
 
+Check what changed in the latest backup:
+
+```bash
+# See all changes
+./borg-diff-latest.sh
+
+# See changes in a specific directory
+./borg-diff-latest.sh home/paul/Documents
+```
+
 ## Restoring a single file
 
 ```bash
