@@ -1,5 +1,11 @@
 # Borg repository passphrase - never commit this!
 password
 
+# Generated system state files (included in Borg backups, not git)
+installed-packages.txt
+dpkg-selections.txt
+apt-sources.txt
+etc.git.tar.gz
+
 # IDE
 .idea/
