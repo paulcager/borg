@@ -5,6 +5,7 @@ password
 installed-packages.txt
 dpkg-selections.txt
 apt-sources.txt
+flatpak-list.txt
 etc.git.tar.gz
 
 # IDE

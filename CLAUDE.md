@@ -17,6 +17,7 @@ This is a documentation repository for Borg backup setup on Linux Mint with rsyn
   - `installed-packages.txt` - List of manually installed packages
   - `dpkg-selections.txt` - Complete package selection state
   - `apt-sources.txt` - APT repository sources
+  - `flatpak-list.txt` - List of installed Flatpak applications
   - `etc.git.tar.gz` - etckeeper git history (manually created)
 
 ## Key Information
@@ -42,7 +43,7 @@ The `borg-backup.sh` script:
 - Creates encrypted backup with timestamp format: `{hostname}-{YYYY-MM-DDTHH:MM}`
 - Uses `--one-file-system` to exclude mounted filesystems (sshfs, NFS, etc.)
 - Reads exclusion patterns from `exclude-patterns.txt`
-- Captures package lists before each backup (apt-mark, dpkg selections, apt sources)
+- Captures package lists before each backup (apt-mark, dpkg selections, apt sources, flatpak applications)
 - Prunes old backups (keeps 7 daily, 4 weekly, 6 monthly)
 - Compacts repository after pruning
 
@@ -63,6 +64,7 @@ The script generates these files (gitignored, included in backups):
 - `installed-packages.txt` - Manually installed packages (apt-mark showmanual)
 - `dpkg-selections.txt` - All package selections
 - `apt-sources.txt` - APT repository sources
+- `flatpak-list.txt` - Installed Flatpak applications
 - `etc.git.tar.gz` - etckeeper git history (created manually when /etc changes)
 
 ## Common Operations

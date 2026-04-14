@@ -12,6 +12,7 @@ echo "Capturing package lists..."
 apt-mark showmanual > "$SCRIPT_DIR/installed-packages.txt"
 dpkg --get-selections > "$SCRIPT_DIR/dpkg-selections.txt"
 grep -r --include '*.list' '^deb ' /etc/apt/sources.list /etc/apt/sources.list.d/ > "$SCRIPT_DIR/apt-sources.txt" 2>/dev/null || true
+flatpak list --columns=application > "$SCRIPT_DIR/flatpak-list.txt" 2>/dev/null || true
 
 borg create                              \
     --verbose --stats --progress         \
