@@ -8,6 +8,7 @@ sh:**/.dbus
 sh:**/.local/share/Trash
 sh:**/snap/*/common/.cache
 sh:**/.thumbnails
+sh:**/.npm
 
 # Browser storage and caches
 sh:**/.mozilla/firefox/*/storage
@@ -26,6 +27,7 @@ sh:**/.local/share/pipx/venvs/openai-whisper/lib/python3.12/site-packages
 sh:**/.arduino15
 sh:**/.platformio
 sh:**/.espressif
+sh:**/pico-sdk
 
 # Work and project-specific
 sh:**/work-chrome
