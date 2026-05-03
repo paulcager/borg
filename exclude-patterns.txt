@@ -17,6 +17,7 @@ sh:**/.config/google-chrome
 # Development tools
 sh:**/.local/share/JetBrains
 sh:**/.cache/JetBrains
+sh:**/.local/share/claude/versions
 sh:**/esp-idf
 
 # AI/ML caches
@@ -29,6 +30,7 @@ sh:**/.platformio
 sh:**/.espressif
 sh:**/pico-sdk
 sh:**/tinygo
+sh:**/Android/Sdk
 
 # Work and project-specific
 sh:**/work-chrome
